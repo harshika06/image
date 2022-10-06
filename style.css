@@ -1,0 +1,259 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+/* header css */
+header{
+  height:75px;
+  
+
+  display: flex;
+  
+  justify-content: center;
+  padding:20px;
+  font-size: 18px;
+  background-color:  #333;
+}
+
+#btnnav
+{
+  height: 40px;
+  width: 90px;
+  margin-left: 600px;
+  margin-top: -5px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(119, 227, 246);
+  color: aquamarine;
+  
+}
+
+header .logo
+{
+  font-size: 33px;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+header .logo span{
+  color: rgb(90, 134, 221);
+
+}
+
+header .navbar{
+  margin-left: 50px;
+  
+}
+
+#first
+{
+  text-decoration: none;
+  margin-top: -5px;
+}
+
+
+header .navbar a{
+  text-decoration: none;
+  color:white;
+  margin:20px;
+ 
+}
+header .icon i{
+  color:white;
+  font-size: 20px;;
+}
+#login-btn{
+color:white;
+padding:10px;
+margin-right: 50px;
+font-size: 25px;
+
+
+}
+.navbar a:hover{
+color:rgb(72, 50, 200);
+transition: 1s;
+text-decoration: underline;
+}
+#login-btn:hover{
+color:rgb(55, 77, 177);
+transition: 1s;
+
+}
+.navbar #home{
+color:rgb(21, 0, 255);
+text-decoration: underline;
+
+}
+.bar{
+   height: 90px;
+   width: 70%;
+   background-color: pink;
+   margin-left: 220px;
+   margin-top: 20px;
+
+}
+.bar h3{
+  color: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.bar p{
+  color:#333;
+  margin-left: 10px;
+  margin-top: 5px;
+
+
+}
+.content
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+ }
+ .content .card 
+ {
+   
+    margin:50px 20px;
+    
+    background-color: #fff;
+    padding: 15px 30px;
+
+}
+
+.content .card img{
+    width: 100%;
+    margin-left: 20px;
+    height: 300px;
+    border-radius: 10px;
+}
+.capture{
+  padding: 15px 5px;
+  height: 300px;
+  background-color: rgba(7, 123, 107, 0.5);
+  
+}
+h4{
+  text-align:center;
+  color:rgb(5, 255, 255);
+}
+.temp{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+btn{
+  padding: 6px 12px;
+  margin: 0px 9px;
+  font-size: 18px;
+  background-color: transparent;
+  color: rgb(0, 255, 221);
+  border: 2px solid rgb(0, 255, 221);
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+}
+.btn:hover{
+  background-color:rgb(0, 255, 221);
+  color: black;
+}
+
+
+.photo{
+  background-image: url(https://media.istockphoto.com/photos/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-picture-id1285301614?k=20&m=1285301614&s=612x612&w=0&h=WbwgiM4M_JWWC9ew3Mhxq1XPyfZ-Sko_RgKf7toPe7A=);
+  opacity: calc(0.8);
+  background-repeat: no-repeat;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+footer
+{
+    background: #333;
+    
+     
+}
+footer .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+
+
+}
+
+footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+    margin-left: 30px;
+
+}
+
+footer .box-container .box h3{
+    font-size:25px;
+    padding: 6rem 0;
+    color: #fff;
+
+}
+footer .box-container .box p{
+    font-size: 18px;
+    padding: 1rem 0;
+    color: #eee;
+    
+}
+footer .box-container .box a{
+    display: block;
+    font-size:20px;
+    padding: 1rem 0;
+    color: #eee;
+    text-decoration: none;
+    
+}
+footer .box-container .box a:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+footer .credit
+{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: solid rgba(255,255,255,.2);
+
+}
+footer .credit span
+{
+    color: orange;
+
+}
+#btnnav1
+{
+  height: 40px;
+  width: 90px;
+  margin-right: 20px;
+  margin-top: -5px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(31, 90, 100);
+  color: rgb(56, 56, 196);
+  
+}
